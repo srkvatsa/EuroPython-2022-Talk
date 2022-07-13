@@ -9,16 +9,16 @@ Do you believe the demonstration expanded your understanding of the material pre
 Would you benefit from greater integration of Python into this course? 18 yes, 3 no
 
 '''
-data = {'Yes':17,'No':4}
+data = {'Yes':7,'No':14}
 x = list(data.keys())
 
 y = list(data.values())
 fig = plt.figure(figsize = (10,10))
 plt.bar(x, y, width=.2)
-plt.xlabel('Do students have prior programming experience?')
+plt.xlabel('Have students learned Python before?')
 plt.ylabel('Number of Students')
-plt.title('Number of students with or without prior programming experience')
-plt.savefig('physicspriorxp')
+plt.title('Number of students with or without prior Python experience')
+plt.savefig('physicsprior_python_xp')
 
 #plt.show()
 
