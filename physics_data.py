@@ -9,16 +9,16 @@ Do you believe the demonstration expanded your understanding of the material pre
 Would you benefit from greater integration of Python into this course? 18 yes, 3 no
 
 '''
-data = {'Yes':21,'No':0}
+data = {'Yes':18,'No':3}
 x = list(data.keys())
 
 y = list(data.values())
 fig = plt.figure(figsize = (10,10))
 plt.bar(x, y, width=.2)
-plt.xlabel('Do students believe the demonstration expanded understanding of the material presented?')
+plt.xlabel('Would students benefit from greater integration of Python into this course?')
 plt.ylabel('Number of Students')
-plt.title('Number of Students In/Not In Agreement')
-plt.savefig('physics_expanded_knowledge.png')
+plt.title('Number of Students In/Not In Agreement with Survey Question')
+plt.savefig('physics_greater_integration.png')
 
 #plt.show()
 
