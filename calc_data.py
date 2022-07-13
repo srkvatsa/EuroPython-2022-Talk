@@ -10,16 +10,16 @@ Would you benefit from greater integration of Python into this course? 15 yes, 9
 
 
 '''
-data = {'Yes':5,'No':19}
+data = {'Yes':19,'No':5}
 x = list(data.keys())
 
 y = list(data.values())
 fig = plt.figure(figsize = (10,10))
 plt.bar(x, y, width=.2)
-plt.xlabel('Do students have prior Python experience?')
+plt.xlabel('Were students able to follow along with the Python demonstration?')
 plt.ylabel('Number of Students')
 plt.title('Number of Students In/Not In Agreement with Survey Question')
-plt.savefig('calc_prior_py_xp.png')
+plt.savefig('calc_follow_py.png')
 
 #plt.show()
 
