@@ -10,7 +10,7 @@ Would you benefit from greater integration of Python into this course? 15 yes, 9
 
 
 '''
-data = {'Yes':18,'No':3}
+data = {'Yes':14,'No':10}
 x = list(data.keys())
 
 y = list(data.values())
